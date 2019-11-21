@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/menu_view_margin_padding"
+    android:paddingRight="@dimen/menu_view_margin_padding">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/menu_view_margin_padding"
+
+        android:paddingBottom="@dimen/menu_view_margin_padding">
+        <ImageView
+            android:id="@+id/ivMenuImage"
+           android:layout_marginLeft="10dp"
+
+            android:layout_width="@dimen/menu_view_menu_image_size"
+            android:layout_height="@dimen/menu_view_menu_image_size">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/menu_view_margin_padding">
+            <TextView
+                android:id="@+id/tvMenuName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ทาร์ตมะเขือเทศ"
+                android:textSize="@dimen/menu_view_menu_name_size"
+                android:textColor="#000"
+                android:maxLines="2" />
+
+            <TextView
+                android:id="@+id/tvMenuPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="฿ 120"
+                android:textSize="@dimen/menu_view_menu_price_size"
+                android:layout_marginTop="@dimen/menu_view_margin_padding" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:alpha="0.5"
+        android:background="@color/menu_view_line_color">
+
+    </View>
+</LinearLayout>

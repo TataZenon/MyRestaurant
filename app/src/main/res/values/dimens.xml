@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_view_margin_padding">12dp</dimen>
+    <dimen name="menu_view_menu_name_size">20sp</dimen>
+    <dimen name="menu_view_menu_image_size">80dp</dimen>
+    <dimen name="menu_view_menu_price_size">12dp</dimen>
+</resources>

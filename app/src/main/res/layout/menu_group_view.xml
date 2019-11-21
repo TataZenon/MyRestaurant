@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="#e0e0e0">
+
+    <TextView
+        android:id="@+id/tvMenuGroupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#979797"
+        android:text="เมนูแนะนำ"
+        android:minLines="2"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+</RelativeLayout>
